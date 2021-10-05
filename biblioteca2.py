@@ -72,6 +72,6 @@ def calcular_ponto_de_fuga(img, equacoes):
 
     crosshair(img, (x, y), 5, (255, 0, 0))
 
-    return img, (x, y)
+    return (x, y)
 
         
